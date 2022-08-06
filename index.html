@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2354c028ce.js" crossorigin="anonymous"></script>
+    <title>Name Picker!</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABHNCSVQICAgIfAhkiAAAC5pJREFUeF7NnAtwlNUVx//32yRkH+TBowqhECqBZQELInkIUh5FsgmCtA0JZcpIhSkEBSvT0VBbsNpCZipqi6Md6ZQ6bUlSQnhVdIaxKATTSBlUBBLQhkmC8pQkQMhjv9tzv01CXrv7PTd8M8wa9z7O/eWcc885935hCPNTXJwyjLVIExn4tznDMAYkkAgJnLNhjCFhlqsWUYzXgKGW/n8tfdYwmT5tcrXswwlHRm1NOEUm+ax9+EZIJZ7kFHBpHjgyGWPfDTbj7P61iGQ8YBMO/gmNsZ/L8n67t7acoMpWrsAyQCWFKT/kXJpPGuClSQarXUQoQJ3H4ZxfZmAHJKCkX0b1brVzaGlnKiDOwXYXpWaRprwIxkZrEaS9rRZAXcbnvJIz/rw9vXYnaVVgFdQolGmASnakziAoW0hjJmmUoUtz3YDaRqFf0jFJ8uVFp184aESO9r6GAe3ZmTZJbuUEhs0wQyCjgDrJcNAmIy8qs/qYEbl0A2ozpw00+a9BdIwI0bmviYBoWJKSY2O0t+ZFvWana2Hv/C0lpilC+juZ0zyzwBj2QUEEIWe+345bS1jGtXqt8moGtKfowTEyj9xDE43ROpma9rNom6c4SE1TjW14BWTfXHvmV+e1dNQEaFdR8iwmSyVkUTFaJtHSdrbrAiIla0IbsrerjPNF9oza99XKpBoQxTXrOKR86mBTO7iedub6oF4k4NxH4cAvHN7aV9TIpwrQ7sK0uTLn75Cjo5hMVRc1c/faxnJAwnXLXJbIf0Zn1BwIJWjI1e4qSB5NXD6+Y1bCP4TsFmregN9bDYj2tfY9t47BlxLtvVARTNigK/XvVkzA6RYVWwfJKkAiEJHJtXUNSHhFdMTNFDbnm7pAkAICOvanyZHVcVH7qONc3eqgo6MVgHqH0yYc5wcoTpoXKOkNCGhXYdqb9OXPdKzRUBezAQWF08GIv+bIqHm6N8F7BaTkVRL7t6GV6uxsJiA1cO6IyWfavTWHuovdK6BdhamHqYwwTecaDXUzDRAFm1ymVajdTzj/wJ5RMyMkoJLCtMeoUYmhVRrobAogEYkrwbhaOn6BGePe6PSadzuL32OEksLUT6npBANrNNTVMCCdcITQolrp8NZMDAhoV0FKDmPSDkMrNNjZECADcNrFJsVb7PBWF7T/3KFBRUWwRfLUs6Q9Iw2u0VB33YBMgKMIzvFl9I3q0WwRfF2MlBzzSnJpbxhanQmddQEScMgha3Q5QaSVl9GBwPYugEoKUgvIS2WbsEZDQ2gGZDocRYsK7RnVOR2Aioo8UZFyzGUryxhqqWkCZAUcv6B10enV8aIKqfigXUVp6TRXyMxW7SKNtFMNyDo4flfE5TQ6pCxTAJUUpL1K9rvWyML09o2NS8KgwZMQG58E8d+xcaPBGz6HXC/+nYJ8rYx+PtVleCG0yMrN8zk9pafCWj6VQ57zAypMO0MflpRQA4GLjHTBPe4J3Dc6tNvzVW1Dy7lXgdZ6hYmoxFtKx69DFZR6uNm+nWnuVh9O69UAPf2ExjyQ/DwcziGqu/PGarR+tg6+ax+FAY5fLDpfG8tKilIfJ1f0F9WSGmwo4Eyb+bruUZpK03uYnO7BQnaUlzGKnp+j6HlTyLYmNBBmNfORv2rSnO7TCk1qKvUq5mb9w/NYOB30hIlrVfmcUAv3nf8zWk6/EKqZ4e/pPO01AhSeAFHsUEJ7ai+fx/a3ZsEVcVtxtzdkF5In/xhz5mxE3kvj4bI146k1ZSg/XoxTx/wHD3My/ggW4UTxPxaCOe/D+meOkBaFwdQoYGSUYhyiFON7hnGHGEDsVkKDyk8dRvPxFUrrE00TkHnPeRyrOo/hU99AedlWTI85g8vDX8CZL0qx/F7/8dW2y170dw6E1/Y2Ci9NxlMr9igaJDTJ0odqRCxcW7zYtYYnZnQAOn5Rxpp1ldi0NRM/H/UZtn09E/A1YXnCUWy7+Ah48xUM4Wdxb/QtnGhJoS3FhuVDDuOVqqnIW7kDvtp/ooV2NWsfXiE06DppUKy1E0ExL2FmQoNsnzyBymsyFq8+h99tmYpnPNXYduVREoFh+aC9eKtmCtB8Fbz1Bobam/CVj27pUdyfOfBTHIl6Ekvn5ynBpOKsrX3qmCfbdZ3mthzQyR0NylIEoFvlS1Bb14grzXbMGNqKs7cTMDwlHw03r2LQubX4sM5NGnQVrN9g8BY6kWH+w9wkx2UMTNuOZM/Dys/ydYuLDxwKoDMEyPIounjzUYwZMaED0IX6RlzrR5oSNRBjPfMxOyVLceAflXhx4bYdSc56fIGJBOo6eGPbvc0IB9as+a9fZ3xXITcUWas/HBXMk+MiJw3LnfRvV72JBdOXKIDsJ3+KqjofHl3xZY8F/mFrGpLsFzE0+jYO++h2Tct1POwoV0zsX1+PwPqnDyl9eHMF+C3VdxB0gaSE5gM2LsdJ5UXr60A/8ebi2aX5CqCTB5ei8hsZmzf0vImy6fXHMN35HzQ0czSOXI/6G1cxqp52K+7Dh7ceQl5usR9QYyl4E5XPrXzENj8u20mZPLM8kxfmJcys/uZ1nPmfMBOG5PGzeiyv8/fukQ8gxhmH8s9JU7iMhHuSkDB4hN//CPMiM7P2oUDRk+2kVIOFJdUQGiQ0yegjNEdokOUPp1TDk+N8nLb5sCSr/R2xKM4/iqGDhutfm9zg1x7erH8MlT2prLKMjV4c5Y7kUWErdzzomYbtv9JfvAyPafkJSjbbWKVgFq6tXhS6xIRTPNMhdjVNmiQ05yaBtdzvtKkXbfG2AbluBVA4HHU7nPZKoDC33B+tV+WTFJ9z++OwmFWH9XHkEyB/yXXcYielxky/3quy6d7LpGJ3E5GxO/F+uEfcrwSTQku47wp9XqF0g176CZfWdFqHJCGNxeb6i/aeLERBcl2yLuVQX0M+8vJGxDgcqpBb1ojzeik+N452d/+xj6JFlgWM6uEIOe4OQCgk87pzcCgEG5vtyqGbnyZfXNAG524BxCW2OCJ2lXKB4c71lyzYPJLzLKmVSZcXtMO5KwBxnJTiB01kbFHXywvmapE+OHcDILoIvpDF53a8nNfjAhVl93T9Dgau3+mH09eA6LT2aMSA3KmdnX8PQO4c1wwqT+m4wNn+Aoq2a2/dd6K+dNIS2EwWv+pQUEBtgeO7lOFruB9tTGs6C9RXgEh73iPtSe/+C+v11+3Ock6w2ZjKYot5cPrSxKQINoH1X3VSFaC2uGgzbXLPBg/GzIXTZ4Da0ore1hrYYdD77uPOOPcSpMzeIZkPpy8ACdOyxV/KYGxjry+pBfWo38lCrN3mKiPB3V0hWQMn/IB4pRTnm8LYmoAH/SG3HFEvipCjyu7kadbBCSsgkW9F8Cks5snKYG4kJCAlgMxxZFLVcS/9ozjK2qd0ywvob7dbOwkVuCVJymCxq94LNZEqQGIQUbumrX+T6g6hZg7wfVi2eao12waspk0o9KNpvZ5sxwJSorepk2Uv9VoKSJiVJC1kcatUH6hpAiR4Kz6JRx4gc0sMzV97C8sAUQlVisACFpMb9BXM7hJrBiQGcC/EQCnKWUCZ//e1IwjewwpAtK28b4trXRhstwoklS5AymCiPGJzbaUBVpoJyXRAHL+n8gWd/fnLF1of/YDaZhLJrcSxicKAVK2T99beLEAUAJbZGMvrnnxqldEwoPYJFQcO9hKZ3XitQnRubxwQP04F91+y2NVdXozTK5NpgBQBKD0Ze9q1iLTpNzRwkh6hDAA6yyW+wRaTK3xje+1Fjwhd+pgLqNPQ7mz7DyQmLaTjJMpzMECtpBoBXaPDMvoTXWxn5yqg2rnUtLMMUMfkijOPfoj+5Md8gjWfYAX9012hAXGRGuyTwPci7lulep2vGjiijfWAuklCZ3AuwDmK/sBIIkXmiZS7JNKBdCK9eaR8Hnl5A2Kdzio6ia0i4apIxCpqQ5+8CnE4x9jqG2oXZ0a7/wMXrg9jEpaPmAAAAABJRU5ErkJggg==" alt="" class="logo-img">
+        <img src="https://pickerwheel.com/static/809d3705ebd375e84b5b3e6eff18464d/5cf7c/Picker-Wheel-Word-Black.webp" alt="" class="logo-title">
+      </div>
+
+
+      <div class="header-icons">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+        <img src="hammer.png" alt="" class="hammer">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-box">
+        <div class="top-box">
+          <div class="headings">
+            <h2>Picker Wheel</h2>
+            <h3>Help you to make a random decision</h3>
+          </div>
+          <img src="advert.jpg" alt="" class="advert">
+        </div>
+
+      <div class="top-bottom">
+        <div id="main-spinner">
+            <div id="chart"></div>
+        </div>
+        <div class="input">
+          <div class="input-box">
+            <div class="input-heading">
+              <h1>INPUTS</h1>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <i class="fa fa-folder" aria-hidden="true" style="color:#F7B71D"></i>
+              <i class="fa fa-list" aria-hidden="true" style="color:#F7B71D"></i>
+              <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+
+            <div class="input-input-box">
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+              <input type="text" placeholder="Input text here..." id="personName">
+            </div>
+
+            <div id="input-input-add">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+             <input type="<button type="button" name="button">
+            </div>
+          </div>
+          <hr>
+
+          <button id="spinBtn"> Spin Wheel !</button>
+            <div class='customAlert'>
+              <p class='message'></p>
+            	<input type='button' class='confirmButton' value='Ok'>
+            </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

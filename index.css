@@ -1,0 +1,284 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+.customAlert {
+  display: none;
+  position: fixed;
+  max-width: 15vw;
+  min-width: 250px !important;
+  min-height: 20%;
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: -12.5%;
+  margin-top: -5.2%;
+  background: #088a68;
+}
+@media all and (max-width: 1300px) {
+  .customAlert .message {
+    font-size: 14px !important;
+  }
+  .customAlert input[type=button] {
+    height: 15% !important;
+  }
+}
+.customAlert .message {
+  padding: 5px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+.customAlert input[type=button] {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 50%;
+  height: 36px;
+  margin-top: -45px;
+  margin-left: -25%;
+  outline: 0;
+  border: 0;
+  background: #04b486;
+  color: white;
+}
+.customAlert input[type=button]:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background: #05cd99;
+}
+
+.rab {
+  width: 200px;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  color: white;
+  background: #039b73;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+header{
+  background-color: white;
+  height: 10vh;
+  padding-left: 3vw;
+  width: 100%;
+  padding-top:1vh;
+  padding-bottom: 2vh;
+  position: relative;
+}
+
+
+.logo-img{
+  margin-right: 0.5vw;
+  width: 60px;
+}
+
+.logo-title{
+  width:171px;
+}
+
+
+.header-icons{
+  position: absolute;
+  right: 3.5vw;
+  top:3vh;
+}
+
+
+.header-icons i{
+  font-size:25px;
+}
+
+.hammer{
+  height: 30px;
+  transform: translateY(-5px);
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+
+main{
+  background-color: #AAAAAA;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      padding-top: 5vh;
+      height: 200vh;
+}
+
+
+.main-box{
+    border-radius: 30px;
+      width: 90vw;
+      height: 150vh;
+      background-color: #B7B7B7;
+}
+
+.top-box{
+  padding-top:2vh;
+  padding-left:4vh;
+}
+
+.top-box h2{
+  font-size:40px;
+  margin-bottom: 0px !important;
+}
+
+.top-box h3{
+  font-size:20px;
+  font-weight: 400;
+  margin-top:0px !important;
+}
+
+
+.top-bottom{
+  background-color: white;
+}
+
+
+#main-spinner{
+  padding-left: 13vw;
+  padding-right: 1vw;
+  display: inline-block;
+  transform: translateY(5vh) translateX(-5vw);
+}
+
+.advert{
+  height: 13vh;
+  width: 50vw;
+  transform: translateY(-2vh);
+}
+
+
+.headings{
+  transform: translateY(2vh);
+  width: 38%;
+  display: inline-block;
+}
+
+.input{
+  display: inline-block;
+    border: 2px solid black;
+    border-radius: 35px;
+    width: 35vw;
+    height: 80vh;
+    transform: translateY(-3vh);
+}
+
+.input-box{
+  padding-top:3vh;
+  padding-left:2vw;
+  padding-right: 1vw;
+}
+
+.input-heading{
+  display: inline-block;
+}
+
+.input-heading h1{
+  padding-right: 12vw;
+  display: inline-block;
+  font-size:30px;
+}
+
+
+.input-heading i{
+  padding-right: 1vw;
+  font-size: 25px;
+  display:inline-block;
+}
+
+.input-input-box{
+  display: inline-block;
+    position:relative;
+  transform:translateY(2vh);
+    width: 24vw;
+}
+
+.input-input-box input{
+  width:100%;
+  background-color:#D3D3D3;
+  font-size:18px;
+  border: 0px;
+  padding-top:1vh;
+  padding-bottom: 1vh;
+}
+
+.input-input-box i{
+  font-size: 30px;
+      position: absolute;
+      right: 1vw;
+      top: 1vh;
+}
+
+
+#input-input-add{
+  margin-left: 1vw;
+  display: inline-block;
+  position:relative;
+transform:translateY(2vh);
+  width: 5vw;
+}
+
+#input-input-add  i{
+  font-size: 30px;
+      position: absolute;
+      right: 1.5vw;
+      top: 1vh;
+}
+
+
+#input-input-add input{
+  width:100%;
+  background-color:#D3D3D3;
+  font-size:18px;
+  border: 0px;
+  padding-top:1vh;
+  padding-bottom: 1vh;
+}
+
+
+hr{
+  width: 25vw;
+  border-top: dashed 3px black;
+  margin-top: 5vh;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+#spinBtn{
+  margin: 0px 7vw;
+      width: 20vw;
+      font-weight: 700;
+      height: 7vh;
+      color: white;
+      background-color: #2cea85;
+      font-size: 20px;
+}
+
+#winnerText{
+  margin-left:2vw;
+  margin-top:0vh;
+  font-size: 18px;
+}
