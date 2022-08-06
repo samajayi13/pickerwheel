@@ -152,7 +152,8 @@ main{
 
 
 .top-bottom{
-  background-color: white;
+    height: 80vh;
+    background-color: white;
 }
 
 
@@ -182,7 +183,7 @@ main{
     border-radius: 35px;
     width: 35vw;
     height: 80vh;
-    transform: translateY(-3vh);
+    position: absolute;
 }
 
 .input-box{
